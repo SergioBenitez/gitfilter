@@ -1,0 +1,10 @@
+[package]
+name = "gitfilter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", optional = true }
+
+[dependencies.globset]
+version = "0.4.8"
